@@ -43,6 +43,10 @@ body {
 }
 .list {
   list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.no-padding {
 }
 .logo-color {
   color: var(--focus);
@@ -97,6 +101,7 @@ body {
   border-radius: 4px;
   padding: 10px 32px;
   min-width: 200px;
+  border: transparent;
 }
 
 button {
@@ -110,10 +115,12 @@ button {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  outline: 5px solid blueviolet;
 }
 .hero {
   background: #2f303a;
   text-align: center;
+  outline: 1px solid red;
 }
 
 .line-title,
@@ -144,22 +151,32 @@ button {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 .feature-p {
   font-size: 14px;
   line-height: 1.714;
+  margin: 0px;
+}
+.lene {
 }
 .line-title {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+  margin-top: 0px;
+  margin-bottom: 50px;
 }
 .section-title {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  padding-top: 94px;
 }
 .name {
   font-weight: 500;
@@ -196,23 +213,31 @@ button {
   background: #f5f4fa;
   border-radius: 4px;
   min-width: 73px;
+  border: transparent;
+  padding: 6px 22px;
+  border-radius: 4px;
 }
+
 .project-title {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-top: 10px;
+  margin-bottom: 4px;
 }
 .project-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 /* геометрия */
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1170px;
+  width: 1200px;
   outline: 2px solid tomato;
 }
