@@ -7,6 +7,16 @@
 /* фон background: #E5E5E5; */
 /* вторичный фон background: #F5F4FA; */
 /* еще фон черный background: #2F303A; */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 :root {
   --primary-text-color: #ffffff;
   --text: #757575;
@@ -18,6 +28,7 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
+
 .logo {
   color: #212121;
   text-decoration: none;
@@ -83,6 +94,9 @@ body {
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.06em;
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
 }
 
 button {
@@ -179,6 +193,9 @@ button {
   font-size: 16px;
   line-height: 1.625;
   text-align: center;
+  background: #f5f4fa;
+  border-radius: 4px;
+  min-width: 73px;
 }
 .project-title {
   font-weight: bold;
@@ -190,4 +207,12 @@ button {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
+}
+
+/* геометрия */
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
+  outline: 2px solid tomato;
 }
