@@ -35,9 +35,6 @@ body {
 }
 header {
   border-bottom: 1px solid #ececec;
-  width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
 }
 .logo {
   color: #212121;
@@ -94,6 +91,8 @@ header {
   letter-spacing: 0.02em;
   display: flex;
   margin-left: auto;
+}
+.contact .item {
 }
 .link {
   text-decoration: none;
