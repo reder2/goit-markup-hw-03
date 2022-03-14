@@ -35,7 +35,10 @@ body {
 }
 .list .it {
   width: 270px;
-  height: 75px;
+}
+
+.it + .it {
+  margin-left: 30px;
 }
 header {
   border-bottom: 1px solid #ececec;
@@ -96,7 +99,7 @@ header {
   display: flex;
   margin-left: auto;
 }
-.contact .item {
+.item .link {
   padding-top: 32px;
   padding-bottom: 32px;
 }
